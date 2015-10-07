@@ -3,7 +3,8 @@ import {Component, FORM_DIRECTIVES, View} from 'angular2/angular2';
 @Component({ selector: 'my-dashboard' })
 @View({
 	template: `
-		<h2>Angular 2 Is Win</h2>
+		<h2 class="header">Mad lololibs</h2>
+		<h3 style="padding-left:60px;">Crazy Night with Angular 2</h3>
 		<div class="form-list">
 			<input class="form-list-item" [(ng-model)]="nameArr[0].value" placeholder="{{nameArr[0].type}}" />
 			<input class="form-list-item" [(ng-model)]="nameArr[1].value" placeholder="{{nameArr[1].type}}" />
@@ -20,30 +21,30 @@ import {Component, FORM_DIRECTIVES, View} from 'angular2/angular2';
 			<button (click)="reveal()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Reveal</button>
 		</div>
 		<div class="paragraph">
-			It was during the battle of
+			I should not have brought my
 			<span class="lib">{{{true: "", false: nameArr[0].value}[nameArr[0].value == ""]}}</span>
-			when I was running through a
-			<span class="lib">{{{true: "", false: nameArr[1].value}[nameArr[1].value == ""]}}</span>
-			when a
+			to the angular hack night because Sergio brought his
+			<span class="lib">{{{true: "", false: nameArr[1].value}[nameArr[1].value == ""]}}</span>.
+			There was plenty of
 			<span class="lib">{{{true: "", false: nameArr[2].value}[nameArr[2].value == ""]}}</span>
-			went off right next to my platoon. Our
+			 thanks to the sponsors. I was expecting all attendees to be an
 			<span class="lib">{{{true: "", false: nameArr[3].value}[nameArr[3].value == ""]}}</span>
-			yelled for us to
+			 who liked to
 			<span class="lib">{{{true: "", false: nameArr[4].value}[nameArr[4].value == ""]}}</span>
-			to the nearest
+			 daily. I would have preferred it to be hosted at
 			<span class="lib">{{{true: "", false: nameArr[5].value}[nameArr[5].value == ""]}}</span>
-			we could find. When we got to the we
+			  but I suppose canvs worked out well. I’m pretty sure Jeremy
 			<span class="lib">{{{true: "", false: nameArr[6].value}[nameArr[6].value == ""]}}</span>
-			to start a fire. As we were starting the fire the enemy saw the
-			<span class="lib">{{{true: "", false: nameArr[7].value}[nameArr[7].value == ""]}}</span>
-			from the fire and started
-			<span class="lib">{{{true: "", false: nameArr[8].value}[nameArr[8].value == ""]}}</span>
+			the entire time. I could not have completed this project without my lucky
+			<span class="lib">{{{true: "", false: nameArr[7].value}[nameArr[7].value == ""]}}</span>.
+			Since the beggining, we planned on
+			<span class="lib">{{{true: "", false: nameArr[8].value}[nameArr[8].value == ""]}}</span> and
+			we were doing fine until the
 			<span class="lib">{{{true: "", false: nameArr[9].value}[nameArr[9].value == ""]}}</span>
-			at us. we all quickly ducked behind the
+			 malfunctioned. It broke every
 			<span class="lib">{{{true: "", false: nameArr[10].value}[nameArr[10].value == ""]}}</span>
-			at the and returned fire. we quickly eliminated the enemy and were
-			<span class="lib">{{{true: "", false: nameArr[11].value}[nameArr[11].value == ""]}}</span>
-			that we had won the battle.
+			in the building. Everyone felt
+			<span class="lib">{{{true: "", false: nameArr[11].value}[nameArr[11].value == ""]}}</span>.
 		</div>
 	`,
 	directives: [FORM_DIRECTIVES]
@@ -59,7 +60,7 @@ export class DashboardComponent {
 	public nameArr = [
 		{'type':'Noun','value':''},
 		{'type':'Noun','value':''},
-		{'type':'Noun','value':''},
+		{'type':'Noun (Plural)','value':''},
 		{'type':'Occupation','value':''},
 		{'type':'Verb','value':''},
 		{'type':'Place','value':''},

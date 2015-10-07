@@ -6,8 +6,6 @@ import {DashboardComponent} from './dashboard.component';
 @Component({ selector: 'my-app' })
 @View({
   template: `
-    <a [router-link]="['./Dashboard']">Dashboard</a>
-    <a [router-link]="['./Characters']">Characters</a>
     <router-outlet></router-outlet>
     `,
   directives: [ROUTER_DIRECTIVES]
