@@ -33,7 +33,7 @@ import {Component, FORM_DIRECTIVES, View} from 'angular2/angular2';
 			<span class="lib">{{{true: "", false: nameArr[4].value}[nameArr[4].value == ""]}}</span>
 			 daily. I would have preferred it to be hosted at
 			<span class="lib">{{{true: "", false: nameArr[5].value}[nameArr[5].value == ""]}}</span>
-			  but I suppose canvs worked out well. I’m pretty sure Jeremy
+			  but I suppose Canvs worked out well. I’m pretty sure Jeremy
 			<span class="lib">{{{true: "", false: nameArr[6].value}[nameArr[6].value == ""]}}</span>
 			the entire time. I could not have completed this project without my lucky
 			<span class="lib">{{{true: "", false: nameArr[7].value}[nameArr[7].value == ""]}}</span>.
